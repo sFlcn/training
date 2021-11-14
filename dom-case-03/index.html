@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Библиотека современных авторов</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header-logo" href="#">
+        <img src="img/logo.svg" width="322" height="15" alt="Логотип библиотеки">
+      </a>
+    </header>
+    <main class="main-page container">
+      <h1 class="visually-hidden">Библиотека современных авторов</h1>
+      <section class="author-filter">
+        <h2>Поиск авторов по алфавиту</h2>
+        <nav class="main-nav">
+          <ul class="site-nav">
+            <!--ссылки из букв-->
+            <li class="site-nav-item">
+              <a class="site-nav-link" href="#а">А</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link">Б</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" href="#в">В</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link">Г</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" href="#Д">Д</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="authors">
+        <!-- Разметка раздела с авторами -->
+        <section class="authors-section">
+          <h2 id="А">А</h2>
+          <ul class="author-list">
+            <li class="author-item">
+              <a class="author-link" data-value="Абрагимов Руслан" href="#">
+                <h3>Абрагимов Руслан</h3>
+                <p>12 книг</p>
+              </a>
+            </li>
+            <li class="author-item">
+              <a class="author-link" data-value="Абрамова Валентина" href="#">
+                <h3>Абрамова Валентина</h3>
+                <p>6 книг</p>
+              </a>
+            </li>
+            <li class="author-item">
+              <a class="author-link" data-value="Абрамс Рей" href="#">
+                <h3>Абрамс Рей</h3>
+                <p>5 книг</p>
+              </a>
+            </li>
+            <li class="author-item">
+              <a class="author-link" data-value="Азарова Александра" href="#">
+                <h3>Азарова Александра</h3>
+                <p>8 книг</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- Разметка раздела с авторами -->
+      </section>
+      <section class="books">
+        <!-- Разметка раздела с книгами автора -->
+        <h2>Адамс Гай</h2>
+        <ul class="book-list">
+          <li class="book-item">
+            <article class="book">
+              <img src="img/book-cover-345.jpg" width="95" height="130" alt="Очень добрая история">
+              <div class="title-wrapper">
+                <h3>Очень добрая история</h3>
+                <p class="year">2020</p>
+              </div>
+              <p class="price">560 ₽ <a class="cart" href="#">Купить</a></p>
+              <p class="description">Мудрая и добрая сказка, в которой просто и проникновенно говорится о самом важном: о дружбе, любви, о том, как важно помогать друг другу. Книга знакомит читателя с историей девочки Анны, которая приехала в маленький угрюмый городок. Своими поступками она запустила цепочку добрый дел и подружила всех жителей города, которые уже и забыли, как радоваться жизни.</p>
+              <a class="more" href="#">Скрыть описание</a>
+            </article>
+          </li>
+          <li class="book-item">
+            <article class="book">
+              <img src="img/book-cover-346.jpg" width="95" height="130" alt="Лесной оркестр">
+              <div class="title-wrapper">
+                <h3>Лесной оркестр</h3>
+                <p class="year">2019</p>
+              </div>
+              <p class="price">1100 ₽ <a class="cart" href="#">Купить</a></p>
+              <p class="description short">Все жители леса объединились, чтобы устроить Мишке сюрприз на День Рождения. Что же было подарком на День Рождения и как отметили этот день лесные жители.</p>
+              <a class="more" href="#">Читать дальше</a>
+            </article>
+          </li>
+          <li class="book-item">
+            <article class="book">
+              <img src="img/book-cover-347.jpg" width="95" height="130" alt="Загадка таинственного озера">
+              <div class="title-wrapper">
+                <h3>Загадка таинственного озера</h3>
+                <p class="year">2018</p>
+              </div>
+              <p class="price">630 ₽ <a class="cart" href="#">Купить</a></p>
+              <p class="description short">Тайну этого озера не могут разгадать уже много лет. Но оно совсем не страшное, а наоборот, с волшебной и чистой водой, способной дать силу и уставшему путнику и раненому зверю.</p>
+              <a class="more" href="#">Читать дальше</a>
+            </article>
+          </li>
+        </ul>
+        <!-- Разметка раздела с книгами автора -->
+      </section>
+    </main>
+    <footer class="main-footer">
+      <a class="main-footer-logo" href="#">
+        <img src="img/logo.svg" width="322" height="15" alt="Логотип библиотеки">
+      </a>
+    </footer>
+    <script src="js/vendor/get-declension.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
