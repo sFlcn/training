@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Словарь основных психологических терминов</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header-logo" href="#">
+        <img src="img/logo.svg" width="40" height="49" alt="Логотип словаря">
+      </a>
+    </header>
+    <main class="main-page container">
+      <h1>Словарь основных психологических терминов</h1>
+      <nav class="main-nav">
+        <ul class="site-nav">
+          <!--ссылки из букв, они будут заменены при выполнении js-скрипта -->
+          <li class="site-nav-item">
+            <a class="site-nav-link" href="#а">А</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link" href="#б">Б</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link">В</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link">Г</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link" href="#Д">Д</a>
+          </li>
+          <!--ссылки из букв-->
+        </ul>
+      </nav>
+      <section class="glossary">
+        <!-- словарь с разделами, один раздел - термины, начинающиеся на одну букву алфавита -->
+        <!-- раздел с терминами на определенную букву, будет заменён при выполнении js-скрипта -->
+        <section class="glossary-section">
+          <h2 id="а">А</h2>
+          <ul class="glossary-list">
+            <li class="glossary-item">
+              <a href="#">Абстиненция</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Абулия</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Авторитетность</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Адаптация</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Аддикция</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Акцентуация</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Альтруизм</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Апперцепция</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Атрибуция</a>
+            </li>
+            <li class="glossary-item">
+              <a href="#">Аффилиация</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <a class="main-footer-logo" href="#">
+        <img src="img/logo.svg" width="40" height="49" alt="Логотип словаря">
+      </a>
+    </footer>
+    <div class="modal">
+      <div class="modal-popup">
+        <button class="close-button" type="button">
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
+        <div class="modal-content">
+           <!--статья с определением термина, будет заменена при выполнении js-скрипта -->
+           <p>Па́мять — это общее обозначение комплекса познавательных способностей и высших психических функций, относящихся к накоплению, сохранению и воспроизведению знаний, умений и навыков.</p>
+           <cite>Материал из Википедии — свободной энциклопедии</cite>
+           <!--статья с определением термина -->
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
