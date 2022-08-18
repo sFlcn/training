@@ -7,3 +7,4 @@
 
 - Создание семантической разметки по макету — *semantic-case-...*
 - Работа с DOM в JavaScript — *dom-case-...*
+- Задачи из книги "Eloquent JavaScript" — *eloquentjavascript-...*
