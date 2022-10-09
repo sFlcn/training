@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
 }
 
 .main {
@@ -10,8 +13,29 @@ body {
   align-items: center;
   justify-items: center;
   gap: 10px;
+  text-align: center;
 }
 
 #canvas {
-  border: 1px solid;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #222222;
+}
+
+.main button {
+  font-family: inherit;
+  background-color: #222222;
+  color: gray;
+  border-color: #333333;
+}
+
+.canvas-settings input {
+  width: 20px;
+  color: lightgray;
+  background-color: #333333;
+}
+
+.canvas-settings input[type="checkbox"] {
+  margin: 0;
+  accent-color: gray;
 }

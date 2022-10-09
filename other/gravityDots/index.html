@@ -9,7 +9,34 @@
 <body>
   <main class="main">
     <canvas id="canvas" width="1000" height="600"></canvas>
+    <div class="canvas-control">
+      <button type="button" id="start">Поехали!</button>
+      <button type="button" id="stop">Стоп.</button>
+      <span>:</span>
+      <button type="button" id="log">Log</button>
+    </div>
+    <div class="canvas-settings">
+      <label> Число точек по горизонтали
+        <input type="text" name="xDim" id="xDim" value="4">
+      </label>
+      <label> по вертикали
+        <input type="text" name="yDim" id="yDim" value="4">
+      </label>
+      <label> размер
+        <input type="text" name="radius" id="radius" value="5">
+      </label>
+      <span>:</span>
+      <label> центр тяжести?
+        <input type="checkbox" name="mCener" id="mCener" checked>
+      </label>
+      <span>:</span>
+      <button type="button" id="reset">Применить</button>
+      <br/>
+      <label> сила гравитации
+        <input type="text" name="gravity" id="gravity" value="1">
+      </label>
+    </div>
   </main>
-  <script src="script.js"></script>
+  <script src="script.js" type="module"></script>
 </body>
 </html>
